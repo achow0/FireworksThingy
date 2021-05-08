@@ -1,2 +1,2 @@
 # Fireworks Script
-I made a simply Python Tkinter script that randomly generates fireworks on a canvas. 
+I made a simple Python Tkinter script that randomly generates fireworks on a canvas. 
