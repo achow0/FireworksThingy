@@ -62,7 +62,7 @@ class Application:
             else:
                 count+=1
                 continue
-            f = self.canvas.create_line(line.x1, line.y1, line.x2, line.y2, tags = f"group{group}", fill = line.color, width = 5)
+            self.canvas.create_line(line.x1, line.y1, line.x2, line.y2, tags = f"group{group}", fill = line.color, width = 5)
         if count == len(lines):
             self.canvas.delete(f"group{group}")
             return
